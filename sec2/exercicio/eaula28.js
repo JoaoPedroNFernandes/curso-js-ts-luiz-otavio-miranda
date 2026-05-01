@@ -1,0 +1,10 @@
+let num = Number(prompt('digite um numero'));
+const h1tag = document.getElementById('h1-tag');
+const divtag = document.getElementById('texto');
+h1tag.innerHTML= num;
+divtag.innerHTML += `<p> ${num} é inteiro? ${Number.isInteger(num)} </p>`
+divtag.innerHTML += `<p>Raiz Quadrada: ${num ** 0.5} </p>`
+divtag.innerHTML += `<p> É NaN? ${Number.isNaN(num)}</p>`
+divtag.innerHTML += `<p>Arredondando para baixo: ${Math.floor(num)}</p>`
+divtag.innerHTML += `<p>arredondando para cima ${Math.ceil(num)}</p>`
+divtag.innerHTML += `<p>Com duas casas decimais ${num.toFixed(2)}</p>`
