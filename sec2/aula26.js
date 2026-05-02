@@ -7,7 +7,7 @@ console.log(Number.isInteger(num1)); //me retorna um valor booleando me dizendo 
 let temporaria = num1 * 'ola';
 console.log(Number.isNaN(temporaria)); // retorna booleando se a conta é entre dois numeros
 
-/*há alguns problemas com contas no js, numeros muito pequenos acabam tendo um pouco de impresisao
+/*há alguns problemas com contas no js, numeros muito pequenos acabam tendo um pouco de imprecisao
 nas contas, assim, use isso aqui em baixo para solucionar o problema
 */
 
