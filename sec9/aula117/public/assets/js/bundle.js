@@ -1,0 +1,2 @@
+(()=>{"use strict";var e,o={292(e,o){Object.defineProperty(o,"__esModule",{value:!0}),o.default=function(e,o){return e+o},o.sobrenome=o.nome=o.idade=void 0,o.nome="João",o.sobrenome="Fernandes",o.idade=18}},r={},t=(e=function e(t){var n=r[t];if(void 0!==n)return n.exports;var d=r[t]={exports:{}};return o[t](d,d.exports,e),d.exports}(292))&&e.__esModule?e:{default:e};console.log((0,t.default)(7,7))})();
+//# sourceMappingURL=bundle.js.map
